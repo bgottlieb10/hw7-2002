@@ -56,12 +56,12 @@ document.querySelector('#mute').addEventListener("click", function(){
 });
 
 document.querySelector("#vintage").addEventListener("click", function(){
-	video.classlist.add("oldSchool")
+	video.classList.add("oldSchool")
 	console.log("original styling")
 });
 
 document.querySelector("orig").addEventListener("click", function(){
-	video.classlist.remove("oldSchool")
+	video.classList.remove("oldSchool")
 	console.log("original styling")
 })
 
